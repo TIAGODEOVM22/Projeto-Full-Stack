@@ -13,6 +13,7 @@ import com.tiago.todo.service.TodoService;
 @RestController
 @RequestMapping(value = "/todos")
 public class TodoResource {
+	/*Testando commit*/
 	
 	@Autowired
 	private TodoService service;
