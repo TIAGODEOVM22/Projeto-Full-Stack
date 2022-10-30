@@ -39,6 +39,12 @@ public class TodoService {
 		obj.setId(null);/*medida de segurança para o usuario não informar o ID*/
 		return repository.save(obj);
 	}
+
+	public void delete(Long id) {
+	repository.deleteById(id);
+		
+		
+	}
 	
 	
 }
