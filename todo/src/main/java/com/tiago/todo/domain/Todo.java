@@ -1,7 +1,7 @@
 package com.tiago.todo.domain;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -28,7 +28,7 @@ public class Todo implements Serializable{
 	
 	private String descricao;
 	
-	private LocalDateTime dataParaFinalizar;
+	private Date dataParaFinalizar;
 	
 	private Boolean finalizado = false;
 	
